@@ -7,11 +7,11 @@ public class ProjectEuler {
       if (num % 3==0 || num % 5==0) {
             
             sum += num;
-   }
+      }
    num++;
-   }
+                           }
    return sum;
-   }  
+      }  
    
    
    public static void main(String[] args) {
